@@ -3,13 +3,19 @@ chef - Quick Start
 
 Install Vagrant from http://www.vagrantup.com/
 
-Pick up chef-repo from https://github.com/opscode/chef-repo and create Vagrantfile -
+Pick up chef-repo from https://github.com/opscode/chef-repo
 
 &gt; mkdir mychefrepo ; cd mychefrepo
 
 &gt; git clone https://github.com/opscode/chef-repo.git
 
+Create Vagrantfile -
+
 &gt; vagrant init
+
+Add Vagrant Box -
+
+&gt; vagrant box add precise64 http://files.vagrantup.com/precise64.box
 
 Add this chef recipe (mysql) to Vagrantfile -
 
